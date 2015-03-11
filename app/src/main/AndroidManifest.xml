@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="voice.group4.com.boxingbuttons" >
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lightsout"
+        android:label="LIGHTS OUT!"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ButtonActivity"
+            android:label="Lights Out"
+            android:screenOrientation="portrait"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
